@@ -1,0 +1,65 @@
+<!-- aboutus.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutus.css">
+    
+
+    <script src="https://kit.fontawesome.com/5d44f58943.js" crossorigin="anonymous"></script>
+
+    <title>Ask My Mates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="footer">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Question.html">QUESTIONS</a></li>
+                    <li><a href="communities.html">COMMUNITIES</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a class="logo"><img src="images/logo2.png" ></a></li>  
+                </ul>
+
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h4>About Us</h4>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus facilis ab inventore sequi ex sit earum! Harum odit non aliquam eligendi sequi quos sunt quam itaque a. Excepturi, dolor? Odit?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, nisi provident molestiae facilis velit iusto praesentium reiciendis sint recusandae.<br> Blanditiis soluta qui porro ducimus mollitia reprehenderit nam, ipsam eveniet dicta.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, possimus nostrum ipsam, explicabo facilis deleniti eligendi rerum mollitia adipisci quam eius voluptatum asperiores eos molestiae voluptatem! Reprehenderit quos repudiandae necessitatibus!
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made by Team(Niharika,Aditya Sharma,Yogita Rani,Sameer Ahuja,Hardik Jain)</p>
+      </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        } 
+        function hideMenu(){
+            navLinks.style.right="-200";
+        }  
+        </script>
+
+
+</body>
+</html>
